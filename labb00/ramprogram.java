@@ -1,4 +1,5 @@
 class ramprogram{
+	
 	public static void main(String[] args){
 /*		// Del 1 och 2
 		Human myHuman = new Human(22, "Philip");

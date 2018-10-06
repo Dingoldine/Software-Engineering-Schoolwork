@@ -52,7 +52,7 @@ class Program extends JFrame implements ActionListener{
     }
 
     public static void main(String[] args){
-      Program frame = new Program("Nigguh");
+      Program frame = new Program("JFrame");
       
       
       

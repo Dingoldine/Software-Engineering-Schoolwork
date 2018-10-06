@@ -4,7 +4,7 @@ public class Student extends Human{
 
 	public Student(int yearIn, String programIn, int ageIn,String nameIn){
 		super(ageIn, nameIn);
-		if ((yearIn < 1934 || yearIn > 2016) || (super.getAge() < 15)){
+		if ((yearIn < 1934 || yearIn > 2018) || (super.getAge() < 15)){
 			throw new IllegalArgumentException("Startår: " + super.getRandomYear() + " ålder: " + super.getAge());
 		}
 		else {

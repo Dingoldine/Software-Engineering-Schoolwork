@@ -28,8 +28,6 @@ class Program extends JFrame implements ActionListener{
     setSize(800, 600);
     setDefaultCloseOperation( JFrame.EXIT_ON_CLOSE );
     
-
-
     //setVisible(true);           
     
     //JPanel
@@ -39,13 +37,14 @@ class Program extends JFrame implements ActionListener{
     panel.setLayout(new FlowLayout());
 
     array_of_buttons = new ArrayList<MyButton>();
+    
     for (int i = 1; i < user_input.length; i = i + 2){ 
       System.out.print(user_input[i]);
       System.out.print(user_input[i+1]);
       MyButton button = new MyButton(Color.green, Color.red, user_input[i], user_input[i+1]);
       button.addActionListener(this);
       array_of_buttons.add(button);
-      add(button);
+      panel.add(button);
     }
 
 

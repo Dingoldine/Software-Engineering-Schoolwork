@@ -16,7 +16,7 @@ public class Human{
 	public static int getRandomAge() {
 		int age;
 		Random rn = new Random();
-		age = rn.nextInt(100);
+		age = rn.nextInt(100 - 18) + 18;
 		return age;
 	}
 
@@ -24,7 +24,7 @@ public class Human{
 	public static int getRandomYear() {
 		int year;
 		Random rn = new Random();
-		year = rn.nextInt(2020 - 1930) + 1930;
+		year = rn.nextInt(2018 - 1934) + 1934;
 		return year;
 	}
 	public static String getRandomName() {

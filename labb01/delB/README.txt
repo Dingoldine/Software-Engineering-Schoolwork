@@ -1,0 +1,3 @@
+To run type the following
+java Program.java [number of buttons] [button1_state1] [button1_state2] [button2_state1] .... 
+Creates a JFrame with a user given number of buttons and states, clicking a button changes the states of all other buttons.
